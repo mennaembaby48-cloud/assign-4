@@ -520,6 +520,7 @@ border-radius: 0;
 }
 
 .upper div {
+  display: none;
   background-color: #000;
   border: 1.5px solid #000;
   rotate: 2deg;
@@ -1474,9 +1475,6 @@ input {
     font-size: 60px;
   }
 
-  .upper div {
-    display: none;
-  } 
 
 
 
@@ -1484,7 +1482,7 @@ input {
 
 
 
-@media (min-width:800px) {
+@media screen and (min-width:800px) {
   .text {
     font-size: 32px;
   }
@@ -1525,6 +1523,7 @@ input {
     height: 400px;
     rotate: 2deg;
   }
+
 
 
   #LATESTARTICLES {
@@ -1604,7 +1603,9 @@ input {
   .flex>div {
     width: 48%;
   }
-
+.upper div{
+  display: block;
+}
 
 
 }
