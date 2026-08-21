@@ -51,7 +51,8 @@ button {
 .text {
   font-size: 24px;
   font-weight: bolder;
-  -webkit-text-stroke: 2px #000;
+  -webkit-text-stroke: 1px #000;
+  letter-spacing: 1.5px;
 }
 
 a {
@@ -60,7 +61,7 @@ a {
 
 .color-orange {
   color: #ff6900;
-  -webkit-text-stroke: 2px #ff6900 !important;
+  -webkit-text-stroke: 1px #ff6900 !important;
 }
 
 #menu {
@@ -859,7 +860,7 @@ border-radius: 0;
 }
 
 .bg-lightpurple {
-  background-color: oklch(94.6% 0.033 307.174);
+  background-color: rgb(243, 232, 255);
   transition: all 0.2s;
 }
 
@@ -894,7 +895,7 @@ border-radius: 0;
 /* AUTHORS */
 
 #AUTHORS {
-  z-index: -2;
+  z-index: 1;
   padding-block: 60px;
   border: 2px solid #000;
   background-color: #ffd230;
@@ -981,15 +982,15 @@ border-radius: 0;
 }
 
 .authors-image div {
-  padding: 3px 6px !important;
-  border: 2px solid #000 !important;
+  padding: 3px 6px;
+  border: 2px solid #000;
   color: #ffffff;
   font-weight: bold;
-  font-size: 10px !important;
+  font-size: 10px;
   width: max-content;
   position: absolute;
-  top: -6px !important;
-  right: -6px !important;
+  top: -6px ;
+  right: -6px ;
 }
 
 .AUTHORS-items .card {
@@ -1017,6 +1018,7 @@ border-radius: 0;
 }
 
 .card ul {
+  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1155,19 +1157,19 @@ display: flex;
 
 .tip-content:nth-of-type(1) img {
   width: 13px;
-  height: 15;
+  height: 15px;
 }
 .tip-content:nth-of-type(2) img {
   width: 19px;
-  height: 15;
+  height: 15px;
 }
 .tip-content:nth-of-type(3) img {
   width: 17px;
-  height: 15;
+  height: 15px;
 }
 .tip-content:nth-of-type(4) img {
   width: 15px;
-  height: 15;
+  height: 15px;
 }
 
 .tip-content span {
@@ -1350,6 +1352,7 @@ display: flex;
 }
 
 .contact-items .CATEGORIES ul li a {
+  text-decoration: none;
   color: #ffffff;
   transition: color 0.2s;
 }
@@ -1531,11 +1534,11 @@ input {
 
 
   .left-part {
-    width: 67%;
+    width: 65%;
   }
 
   .right-part {
-    width: 30%;
+    width: 32%;
     position: sticky;
     top: 50px;
   }
@@ -1586,7 +1589,7 @@ input {
   }
 
   .contact-items>div:nth-of-type(3) {
-    width: 35%;
+    width: 38%;
   }
 
   .flex>div {
@@ -1594,6 +1597,262 @@ input {
   }
 .upper div{
   display: block;
+}
+
+.text{
+  font-size: 25px;
+}
+
+#HOME{
+  padding-block: 144px 64px; 
+  padding-inline: 0;
+}
+#HOME .layers .layer-1{
+  top: 40px;
+  left: 40px;
+  width: 128px;
+  height: 128px;
+}
+
+#HOME .layers .layer-2{
+  top: 120px;
+  right: 80px;
+  width: 96px;
+  height: 96px;
+}
+
+.hero-content > div:nth-of-type(1){
+  padding: 8px 16px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.hero-content h2{
+  font-size: 55px;
+  margin-bottom: 32px;
+}
+
+.hero-content p{
+  font-size: 24px;
+}
+
+#LATESTARTICLES{
+  padding-block: 80px;
+}
+.card-content h4{
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+
+.card-content p{
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.last-part span{
+  font-size: 16px;
+}
+
+.inner div p{
+  font-size: 14px;
+}
+
+.inner span{
+  font-size: 40px;
+  margin-right: 16px;
+}
+
+.card-image-1 div , .card-image-2 div, .card-image-3 div{
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.card-content > div:nth-of-type(1){
+  padding: 4px 12px;
+  font-size: 14px;
+}
+.left-part-button button{
+  font-size: 24px;
+}
+
+.left-part-button button img{
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+} 
+
+.right-part > div h4{
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+
+.CATEGORIES span{
+  font-size: 16px;
+}
+
+#AUTHORS .layers .layer-2{
+  width: 160px;
+  height: 160px;
+  top: 40px;
+  right: 40px;
+}
+#AUTHORS .layers .layer-1{
+  width: 128px;
+  height: 128px;
+  bottom:30px;
+left: 40px;
+}
+
+.head h3{
+  font-size: 54px;
+}
+
+.head p{
+  font-size: 22px;
+}
+
+.head .line{
+margin-top: 16px;
+}
+.AUTHORS-items .card{
+  padding: 32px;
+}
+
+.AUTHORS-items .card h4{
+  font-size: 30px;
+}
+
+.AUTHORS-items .card p:nth-of-type(1) {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.AUTHORS-items .card p:nth-of-type(2) {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.cummunity-items > div:nth-of-type(1) h4{
+  font-size: 40px;
+}
+.cummunity-items > div:nth-of-type(1) p{
+  font-size: 23px;
+  line-height: 1.5;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.tip-content div{
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.tip-content span{
+  font-size: 21px;
+  line-height: 1.5;
+}
+.community-button button{
+  font-size: 30px;
+  padding: 24px 48px;
+}
+
+.community-button button img{
+  width: 24px;
+  height: 24px;
+}
+
+.flex .card{
+  padding: 40px;
+}
+
+.flex .card h5{
+  font-size: 32px;
+}
+
+.recommendations .card p{
+font-size: 20px;
+line-height: 1.6;
+margin-bottom: 16px;
+}
+
+.recommendations-image img{
+  width: 50px;
+  height: 50px;
+}
+.recommendations-image div div:nth-of-type(1){
+  font-size: 20px;
+}
+.recommendations-image div div:nth-of-type(2){
+  font-size: 14px;
+}
+#contact{
+  padding-block: 80px;
+}
+
+.contact-content{
+  padding-inline: 24px;
+}
+.contact-item-image{
+  margin-bottom: 32px;
+}
+.contact-items{
+  margin-bottom: 48px;
+}
+
+.contact-item-image div{
+  width: 64px;
+  height: 64px;
+  margin-right: 16px
+}
+
+.contact-item-image div img{
+  width:24px;
+  height: 24px;
+}
+.contact-item-image h1{
+  font-size: 30px;
+}
+.contact-item p{
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+.contact-items .CATEGORIES h4 ,.input h4{
+  font-size: 26px;
+  margin-bottom: 32px;
+}
+.contact-items .CATEGORIES ul li{
+  margin-bottom: 16px;
+}
+.contact-items .CATEGORIES ul li a{
+  font-size: 20px;
+}
+.input p{
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+input[placeholder]{
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+input+:nth-of-type(1){
+  font-size: 20px;
+  padding-block:20px ;
+}
+.copy-right{
+padding-top: 32px;
+}
+
+.copy-right-members p{
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.copy-right-members div a{
+  font-size: 18px;
 }
 
 
