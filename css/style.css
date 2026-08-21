@@ -1288,6 +1288,7 @@ display: flex;
 .contact-items {
   margin-bottom: 36px;
   display: flex;
+  flex-wrap: wrap;
   align-items: start;
   gap: 50px;
 }
@@ -1798,7 +1799,6 @@ margin-bottom: 16px;
 }
 .contact-items{
   margin-bottom: 48px;
-  flex-wrap: wrap;
 }
 
 .contact-item-image div{
