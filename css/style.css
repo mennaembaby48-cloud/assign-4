@@ -93,12 +93,12 @@ a {
   gap: 16px;
   list-style: none;
 }
-li a {
+.links-vertical li a {
   transition: all 0.3s;
   font-weight: 18px;
 }
 
-#nav-bar li a:hover {
+.links-vertical li a:hover {
   color: #ff7a50;
   transform: translateY(-4px);
 }
