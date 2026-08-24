@@ -95,7 +95,7 @@ a {
 }
 .links-vertical li a {
   transition: all 0.3s;
-  font-weight: 18px;
+  font-size: 18px;
 }
 
 .links-vertical li a:hover {
