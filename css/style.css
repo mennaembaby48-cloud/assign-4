@@ -93,13 +93,12 @@ a {
   gap: 16px;
   list-style: none;
 }
-
 li a {
   transition: all 0.3s;
   font-weight: 18px;
 }
 
-li a:hover {
+#nav-bar li a:hover {
   color: #ff7a50;
   transform: translateY(-4px);
 }
@@ -1031,8 +1030,6 @@ border-radius: 0;
   border: 2px solid #000;
   display: flex;
   align-items: center;
-  align-content: center;
-  justify-content: center;
 }
 
 .space-rt-12 {
@@ -1040,7 +1037,7 @@ border-radius: 0;
 }
 
 .card ul li img {
-  width: 16px;
+  width: 45%;
 }
 
 .icon-1 {
